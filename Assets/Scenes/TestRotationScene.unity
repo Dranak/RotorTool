@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _identifier: Another Rotator
   _timeBeforeStoppingInSeconds: 23
-  _shouldReverseRotation: 1
+  _shouldReverseRotation: 0
   _rotationsSettings:
     ObjectToRotate: {fileID: 235143066}
     AngleRotation: {x: 12, y: 23, z: 90}
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _identifier: Rotator Inside Rotator
   _timeBeforeStoppingInSeconds: 15
-  _shouldReverseRotation: 1
+  _shouldReverseRotation: 0
   _rotationsSettings:
     ObjectToRotate: {fileID: 570697878}
     AngleRotation: {x: 90, y: 45, z: 20}
@@ -550,12 +550,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _identifier: Incredible Rotator
-  _timeBeforeStoppingInSeconds: 15
+  _timeBeforeStoppingInSeconds: 84
   _shouldReverseRotation: 0
   _rotationsSettings:
-    ObjectToRotate: {fileID: 682730322}
-    AngleRotation: {x: 0, y: 0, z: 90}
-    TimeToRotateInSeconds: 0.5
+    ObjectToRotate: {fileID: 986741268850377399}
+    AngleRotation: {x: 90, y: 45, z: 20}
+    TimeToRotateInSeconds: 52
 --- !u!136 &682730319
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -690,6 +690,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680722572030254767, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _shouldReverseRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256879741578178035, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _shouldReverseRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256879741578178035, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _timeBeforeStoppingInSeconds
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256879741578178035, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _rotationsSettings.ObjectToRotate
+      value: 
+      objectReference: {fileID: 986741268850377399}
+    - target: {fileID: 6256879741578178035, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _rotationsSettings.AngleRotation.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256879741578178035, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _rotationsSettings.AngleRotation.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256879741578178035, guid: f93036e64904d1d4c9e0645a7099b82b,
+        type: 3}
+      propertyPath: _rotationsSettings.TimeToRotateInSeconds
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 7436278325016671692, guid: f93036e64904d1d4c9e0645a7099b82b,
         type: 3}
@@ -844,7 +879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _identifier: Fast Rotator
   _timeBeforeStoppingInSeconds: 15
-  _shouldReverseRotation: 1
+  _shouldReverseRotation: 0
   _rotationsSettings:
     ObjectToRotate: {fileID: 1585895091}
     AngleRotation: {x: 90, y: 45, z: 20}
@@ -930,6 +965,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1052797492930356744, guid: 08babf80b37914f4a8928f54cbdaf1f1,
+        type: 3}
+      propertyPath: _shouldReverseRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052797492930356744, guid: 08babf80b37914f4a8928f54cbdaf1f1,
+        type: 3}
+      propertyPath: _timeBeforeStoppingInSeconds
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1052797492930356744, guid: 08babf80b37914f4a8928f54cbdaf1f1,
+        type: 3}
+      propertyPath: _rotationsSettings.TimeToRotateInSeconds
+      value: 52
+      objectReference: {fileID: 0}
     - target: {fileID: 4161331753682431681, guid: 08babf80b37914f4a8928f54cbdaf1f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -992,3 +1042,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08babf80b37914f4a8928f54cbdaf1f1, type: 3}
+--- !u!4 &986741268850377399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4161331753682431681, guid: 08babf80b37914f4a8928f54cbdaf1f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 986741268850377398}
+  m_PrefabAsset: {fileID: 0}
